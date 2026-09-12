@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="StudyFlow: organiza tareas, exámenes, horarios y hábitos de estudio en un solo lugar.">
+  <title>StudyFlow — Estudia mejor, sin caos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement"><span>✦</span> Una forma más simple de organizar tu vida académica</div>
+
+  <header class="navbar" id="navbar">
+    <div class="container navbar__inner">
+      <a href="#top" class="brand" aria-label="StudyFlow inicio">
+        <span class="brand__mark"><span>✓</span></span>
+        <span class="brand__name">Study<span>Flow</span></span>
+      </a>
+      <nav class="nav-links" id="navLinks" aria-label="Navegación principal">
+        <a href="#problema">Problema</a>
+        <a href="#solucion">Solución</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#como-funciona">Cómo funciona</a>
+        <button class="btn btn--primary btn--small" data-cta>Quiero probarlo <span>→</span></button>
+      </nav>
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero__grid"></div>
+      <div class="orb orb--one"></div><div class="orb orb--two"></div>
+      <div class="container hero__inner">
+        <div class="hero__copy reveal">
+          <div class="eyebrow"><span class="eyebrow__dot"></span> Tu estudio, bajo control</div>
+          <h1>Menos caos.<br><span>Más enfoque.</span></h1>
+          <p class="hero__lead">Organiza tareas, exámenes, horarios y hábitos de estudio en un solo lugar. StudyFlow convierte una semana llena de pendientes en un plan claro.</p>
+          <div class="hero__actions">
+            <button class="btn btn--primary btn--large" data-cta>Quiero probar StudyFlow <span>→</span></button>
+            <a href="#solucion" class="btn btn--outline btn--large">Descubrir cómo funciona</a>
+          </div>
+          <div class="hero__trust"><div class="avatars"><i>J</i><i>M</i><i>A</i><i>S</i></div><span>Diseñado pensando en estudiantes</span></div>
+        </div>
+
+        <div class="dashboard-wrap reveal reveal--delay" aria-label="Vista previa del panel de StudyFlow">
+          <div class="dashboard-glow"></div>
+          <div class="dashboard">
+            <div class="dashboard__top"><div class="window-dots"><b></b><b></b><b></b></div><span>studyflow.app</span><button>•••</button></div>
+            <div class="dashboard__body">
+              <aside class="dash-sidebar">
+                <div class="dash-logo"><span>✓</span> StudyFlow</div>
+                <div class="dash-menu"><a class="active">⌂ <span>Resumen</span></a><a>▦ <span>Calendario</span></a><a>✓ <span>Tareas</span><em>4</em></a><a>◷ <span>Hábitos</span></a></div>
+                <div class="sidebar-bottom"><small>Tu progreso</small><strong>72%</strong><div class="mini-progress"><i></i></div></div>
+              </aside>
+              <div class="dash-content">
+                <div class="dash-heading"><div><small>Martes, 8 de septiembre</small><h3>Buenos días, estudiante 👋</h3></div><div class="profile">SG</div></div>
+                <div class="stats"><div><span>✓</span><small>Completadas</small><strong>12</strong><b>+24% esta semana</b></div><div><span>◷</span><small>Horas de estudio</small><strong>8.5h</strong><b>+1.5h</b></div><div><span>◎</span><small>Racha actual</small><strong>7 días</strong><b>¡Sigue así!</b></div></div>
+                <div class="dash-panels">
+                  <div class="panel calendar-panel"><div class="panel-head"><strong>Esta semana</strong><span>Ver calendario →</span></div><div class="week"><i>L<em>8</em></i><i class="today">M<em>9</em></i><i>X<em>10</em></i><i>J<em>11</em></i><i>V<em>12</em></i></div><div class="timeline"><div><time>08:00</time><span class="event blue">Matemáticas <small>08:00 – 10:00</small></span></div><div><time>11:00</time><span class="event purple">Ingeniería de Software <small>11:00 – 12:00</small></span></div><div><time>16:00</time><span class="event green">Repasar examen <small>16:00 – 17:00</small></span></div></div></div>
+                  <div class="panel tasks-panel"><div class="panel-head"><strong>Próximas tareas</strong><span>4 pendientes</span></div><label class="task done"><i>✓</i><span>Entregar taller de datos</span><small>Hoy</small></label><label class="task"><i></i><span>Estudiar para parcial</span><small>Mañana</small></label><label class="task"><i></i><span>Proyecto Ingeniería</span><small>Jue 11</small></label><label class="task"><i></i><span>Leer capítulo 5</span><small>Vie 12</small></label></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="float-card float-card--score"><span>✦</span><div><small>Rendimiento semanal</small><strong>+18.4%</strong></div></div>
+          <div class="float-card float-card--check"><span>✓</span><div><strong>¡Bien hecho!</strong><small>Completaste tu meta</small></div></div>
+        </div>
+      </div>
+      <div class="scroll-cue">SCROLL <span></span></div>
+    </section>
+
+    <section class="proof"><div class="container proof__inner"><span>TODO LO QUE NECESITAS PARA</span><strong>📚 Estudiar con intención</strong><strong>◷ Aprovechar tu tiempo</strong><strong>✓ Cumplir tus metas</strong><strong>✦ Crear mejores hábitos</strong></div></section>
+
+    <section class="section section--problem" id="problema">
+      <div class="container">
+        <div class="section__head center reveal"><span class="section-tag">EL PROBLEMA</span><h2>Tu universidad ya es difícil.<br><em>Organizarte no debería serlo.</em></h2><p>Entre clases, trabajos, parciales y mil pendientes, es fácil perder de vista lo importante.</p></div>
+        <div class="problem-grid">
+          <article class="problem-card reveal"><span class="problem-icon red">!</span><h3>Todo está disperso</h3><p>Calendario, WhatsApp, notas, correos… saltas entre aplicaciones para recordar qué tienes que hacer.</p><div class="problem-line"><i></i><i></i><i></i><i></i></div></article>
+          <article class="problem-card reveal"><span class="problem-icon orange">◷</span><h3>El tiempo no alcanza</h3><p>Sabes que tienes que estudiar, pero no sabes cuánto tiempo dedicarle a cada materia.</p><div class="problem-line"><i></i><i></i><i></i></div></article>
+          <article class="problem-card reveal"><span class="problem-icon yellow">!</span><h3>Todo se acumula</h3><p>Una tarea pendiente se convierte en cinco. Y cuando llega el examen, ya vas tarde.</p><div class="problem-line"><i></i><i></i></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section solution" id="solucion">
+      <div class="container solution__inner">
+        <div class="solution__visual reveal"><div class="phone"><div class="phone-notch"></div><div class="phone-screen"><div class="mobile-top"><span>9:41</span><b>● ●</b></div><div class="mobile-greeting"><small>Mi semana</small><h3>Todo bajo control.</h3></div><div class="focus-card"><small>ENFOQUE DE HOY</small><strong>Ingeniería de Software</strong><div><span>75%</span><i></i></div></div><div class="mobile-title"><strong>Mis tareas</strong><span>Ver todas</span></div><div class="mobile-task done"><i>✓</i><span><b>Investigar proyecto</b><small>Completada</small></span></div><div class="mobile-task"><i></i><span><b>Preparar presentación</b><small>Hoy · 4:00 PM</small></span></div><div class="mobile-task"><i></i><span><b>Repasar capítulo 4</b><small>Mañana · 8:00 AM</small></span></div><div class="mobile-nav"><b>⌂<small>Inicio</small></b><b>✓<small>Tareas</small></b><b>◷<small>Hábitos</small></b><b>◉<small>Perfil</small></b></div></div></div><div class="spark spark--1">✦</div><div class="spark spark--2">+</div></div>
+        <div class="solution__copy reveal"><span class="section-tag">LA SOLUCIÓN</span><h2>Una sola vista para saber <em>qué hacer y cuándo.</em></h2><p>StudyFlow reúne lo que hoy tienes repartido en diferentes lugares y lo convierte en una experiencia sencilla, visual y accionable.</p><div class="feature-list"><div><span>01</span><article><strong>Planifica tu semana</strong><p>Distribuye tus horas de estudio sin olvidar tus clases ni tus descansos.</p></article></div><div><span>02</span><article><strong>Prioriza lo importante</strong><p>Identifica rápidamente qué tareas necesitan tu atención primero.</p></article></div><div><span>03</span><article><strong>Construye hábitos</strong><p>Convierte el estudio constante en una rutina que puedas mantener.</p></article></div></div></div>
+      </div>
+    </section>
+
+    <section class="section benefits" id="beneficios"><div class="container"><div class="section__head center reveal"><span class="section-tag">TODO EN UN LUGAR</span><h2>Herramientas que trabajan <em>a tu favor.</em></h2><p>Menos tiempo organizando. Más tiempo haciendo lo que realmente importa.</p></div><div class="benefit-grid"><article class="benefit reveal"><span class="benefit-number">01</span><div class="benefit-icon blue">▦</div><h3>Calendario inteligente</h3><p>Visualiza clases, entregas y exámenes sin perderte entre fechas.</p><a href="#como-funciona">Conocer más →</a></article><article class="benefit reveal"><span class="benefit-number">02</span><div class="benefit-icon purple">✓</div><h3>Tareas y prioridades</h3><p>Convierte pendientes en acciones claras y sabe cuál merece tu atención.</p><a href="#como-funciona">Conocer más →</a></article><article class="benefit reveal"><span class="benefit-number">03</span><div class="benefit-icon green">◷</div><h3>Hábitos de estudio</h3><p>Haz seguimiento a tu constancia y crea una rutina que se mantenga.</p><a href="#como-funciona">Conocer más →</a></article><article class="benefit reveal"><span class="benefit-number">04</span><div class="benefit-icon orange">◎</div><h3>Metas y progreso</h3><p>Mide tu avance por materia y celebra cada pequeño progreso.</p><a href="#como-funciona">Conocer más →</a></article></div></div></section>
+
+    <section class="section how" id="como-funciona"><div class="container"><div class="how-layout"><div class="how-copy reveal"><span class="section-tag">ASÍ FUNCIONARÍA</span><h2>De “no sé por dónde empezar” a <em>“sé exactamente qué hacer”.</em></h2><p>Una experiencia pensada para que organizar tu estudio tome minutos, no horas.</p><button class="btn btn--primary" data-cta>Quiero probarlo <span>→</span></button></div><div class="steps"><div class="step reveal"><span>1</span><div><small>PASO 01</small><h3>Agrega tus materias</h3><p>Registra tus clases, horarios y fechas importantes.</p></div></div><div class="step reveal"><span>2</span><div><small>PASO 02</small><h3>Organiza tus pendientes</h3><p>Define tareas, prioridades y cuánto tiempo necesitas.</p></div></div><div class="step reveal"><span>3</span><div><small>PASO 03</small><h3>Deja que StudyFlow te guíe</h3><p>Consulta tu día, sigue tus hábitos y avanza hacia tus metas.</p></div></div></div></div></div></section>
+
+    <section class="cta-final"><div class="cta-shape one"></div><div class="cta-shape two"></div><div class="container cta-inner reveal"><span class="section-tag light">ESTAMOS VALIDANDO LA IDEA</span><h2>¿Te gustaría estudiar<br><em>con menos estrés?</em></h2><p>StudyFlow todavía está en etapa de validación. Tu interés nos ayuda a decidir si vale la pena construirlo.</p><button class="btn btn--white btn--large" data-cta>Quiero probar StudyFlow <span>→</span></button><div class="cta-message" id="ctaMessage" aria-live="polite"></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><div><a href="#top" class="brand"><span class="brand__mark"><span>✓</span></span><span class="brand__name">Study<span>Flow</span></span></a><p>Organiza tu tiempo. Estudia con propósito.</p></div><div class="footer-links"><a href="#problema">Problema</a><a href="#solucion">Solución</a><a href="#beneficios">Beneficios</a><a href="#como-funciona">Cómo funciona</a></div><small>© 2026 StudyFlow · Proyecto académico</small></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
